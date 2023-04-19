@@ -36,8 +36,7 @@ console.log(text.toLocaleLowerCase().indexOf("r", 5))
 
 // 6. "Mətn"də saitləri tapın və onları unikal dəyərləri ehtiva edən "newArr"-a əlavə edin. //['e','a','o']
 // saitlər = ['a', 'i', 'o', 'u', 'e']
-
-
+ 
 
 // 3.Cəm regionun sahəsini hesablamaq üçün 'calcArea()' adlı funksiyanı (ox funksiyası) yazın,
 // əgər regionun uzunluğu 'arr2'-də 6-ya bərabərdirsə.
@@ -66,10 +65,7 @@ const arr3 = [
         area: 30,
     },
 
-]//let result = students.reduce((sum, current, index) => current.age > 10 ? sum + current.age : sum, 0)
-
-// console.log(result);
-
+]
 let result=arr3.reduce((sum,current)=>current.region.length===6?sum+current.area:sum,0)
 console.log(result)
 
@@ -91,6 +87,6 @@ console.log(arr5.flat(Infinity))
 // 6. "Rənglər" massivini rəng uzunluğu ilə çeşidləyin, əgər rəngin uzunluğu bir-birinə bərabərdirsə, onları əlifba sırası ilə sıralayın.
  const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'gray', 'violet', 'pink']
 
-console.log(colors.sort((a,b)=>a.length-b.length))
+console.log(colors.sort((a,b)=>a.length-b.length||a.localeCompare(b)))
 
 
