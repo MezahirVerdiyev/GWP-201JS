@@ -26,9 +26,9 @@ stopbtn.addEventListener("click",function(){
 })
 
 resetbtn.addEventListener("click",function(){
+    clearInterval(interval)
     count=0
     result.innerText=count
-    clearInterval(interval)
     stopbtn.removeAttribute("disabled")
     startbtn.removeAttribute("disabled")
 })
