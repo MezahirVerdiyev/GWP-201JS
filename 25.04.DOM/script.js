@@ -1,6 +1,6 @@
 const header=document.createElement("header")
 const nav=document.createElement("nav")
-const ul=document.createElement("li")
+const ul=document.createElement("ul")
 
 const home=document.createElement("li")
 const about=document.createElement("li")
@@ -21,7 +21,6 @@ contact.innerText="Contact"
 
 
 document.body.append(header)
-
 header.append(nav)
 nav.append(ul)
 
