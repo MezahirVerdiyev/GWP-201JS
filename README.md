@@ -5,3 +5,6 @@
 
 ##25.04.DOM Task:
 -https://silly-profiterole-54e791.netlify.app/
+
+##26.04.ClassWork DOM(Button Function) Task:
+-https://monumental-palmier-37fe7b.netlify.app/?a=on
