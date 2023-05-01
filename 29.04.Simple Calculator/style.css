@@ -1,32 +1,53 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
 }
-.section1{
+
+.section1 {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.asas{
-    max-width: 50%;
+
+.asas {
+ 
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
+ 
     background-color: rgb(214, 170, 59);
-    
+    height: 70vh;
+
 }
-.calculator{
+
+.calculator {
     max-width: 80%;
 }
-.inputlar{
+
+.inputlar {
     display: flex;
-}.sifir{
+}
+
+.sifir {
     display: flex;
     justify-content: flex-end;
     margin: 20px;
     background-color: black;
     color: white;
+}
+
+@media only screen and (max-width:576px) {
+    .inputlar {
+        display: block;
+       
+    }
+
+#input21{
+  width: 100%;  
+}
+#input22{
+    width: 100%;  
+  }
 }
