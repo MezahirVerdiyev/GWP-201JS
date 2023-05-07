@@ -1,0 +1,1 @@
+export let ADI="https://northwind.vercel.app/api/suppliers"
